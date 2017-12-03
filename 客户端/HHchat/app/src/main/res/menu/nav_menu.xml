@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_chatlog"
+            android:icon="@drawable/chat_log"
+            android:title="聊天记录"/>
+        <item
+            android:id="@+id/nav_favorites"
+            android:icon="@drawable/favorites"
+            android:title="我的收藏"/>
+        <item
+            android:id="@+id/nav_set_nickname"
+            android:icon="@drawable/edit_nn_pwd"
+            android:title="修改昵称"/>
+        <item
+            android:id="@+id/nav_set_password"
+            android:icon="@drawable/edit_nn_pwd"
+            android:title="修改密码"/>
+        <item
+            android:id="@+id/nav_check_update"
+            android:icon="@drawable/update"
+            android:title="检查更新"/>
+    </group>
+</menu>
